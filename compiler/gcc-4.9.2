@@ -1,0 +1,15 @@
+#%Module 1.0
+
+module-whatis	 Provides GNU 4.9.0 Compilers
+conflict	 compiler
+setenv		 CC gcc
+setenv		 CXX g++
+setenv		 FC gfortran
+setenv		 F90 gfortran
+setenv		 F77 gfortran
+setenv		 COMPILERVERSION gcc-4.9.2
+prepend-path	 PATH /opt/scc/gcc/4.9.2/bin
+prepend-path	 LD_LIBRARY_PATH /opt/scc/gcc/4.9.2/lib64
+prepend-path	 LD_RUN_PATH /opt/scc/gcc/4.9.2/lib64
+prepend-path	 --delim   LDFLAGS -L/opt/scc/gcc/4.9.2/lib64
+prepend-path	 MANPATH /opt/scc/gcc/4.9.2/share/man
