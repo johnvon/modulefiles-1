@@ -1,0 +1,13 @@
+#%Module 1.0
+
+module-whatis	 Provides IBM advanced toolchain 11.0 Compilers
+conflict	 compiler
+setenv		 CC gcc
+setenv		 CXX g++
+setenv		 FC gfortran
+setenv		 F90 gfortran
+setenv		 F77 gfortran
+setenv		 COMPILERVERSION gcc-7.2.1
+setenv     CMAKE_PREFIX_PATH /opt/at11.0/
+prepend-path	 PATH /opt/at11.0/bin:/opt/at11.0/sbin
+
