@@ -1,0 +1,11 @@
+#%Module 1.0
+
+module-whatis	 Provides IBM Compilers
+conflict	 compiler
+setenv		 CC xlc
+setenv		 CXX xlc++
+prepend-path	 PATH /opt/ibm/xlC/13.1.5/bin
+prepend-path	 LD_LIBRARY_PATH /opt/ibm/xlC/13.1.5/lib
+prepend-path	 LD_RUN_PATH /opt/ibm/xlC/13.1.5/lib
+prepend-path	 -d " " LDFLAGS -L/opt/ibm/xlC/13.1.5/lib
+prepend-path	 MANPATH /opt/ibm/xlC/13.1.5/man
