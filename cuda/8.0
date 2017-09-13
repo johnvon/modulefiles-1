@@ -1,3 +1,4 @@
+#%Module 1.0
 conflict	 cuda
 setenv		 CUDAROOT /usr/local/cuda-8.0
 setenv		 CUDA_INSTALL_PATH /usr/local/cuda-8.0
