@@ -1,0 +1,18 @@
+#%Module 1.0
+#
+#  OpenMPI module for use with 'environment-modules' package:
+#
+conflict		mpi
+prepend-path 		PATH 		/opt/scc/openmpi/2.1.1/bin
+prepend-path 		LD_LIBRARY_PATH /opt/scc/openmpi/2.1.1/lib
+prepend-path LD_RUN_PATH /opt/scc/openmpi/2.1.1/lib
+setenv 			MPI_BIN		/opt/scc/openmpi/2.1.1/bin
+# setenv			MPI_SYSCONFIG	/opt/scc/openmpi/2.1.1/etc/openmpi-ppc64le
+# setenv			MPI_FORTRAN_MOD_DIR	/usr/lib64/gfortran/modules/openmpi-ppc64le
+setenv			MPI_INCLUDE	/opt/scc/openmpi/2.1.1/include
+setenv	 		MPI_LIB		/opt/scc/openmpi/2.1.1/lib
+# setenv			MPI_MAN		/usr/share/man/openmpi-ppc64le
+# setenv			MPI_PYTHON_SITEARCH	/usr/lib64/python2.7/site-packages/openmpi
+setenv			MPI_COMPILER	mpicc
+setenv			MPI_SUFFIX	_openmpi
+setenv	 		MPI_HOME	/opt/scc/openmpi/2.1.1
