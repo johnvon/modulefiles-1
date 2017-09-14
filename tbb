@@ -1,0 +1,17 @@
+#%Module 1.0
+
+
+proc ModulesHelp { } {
+  puts stderr "This module sets up Intel Thread Building Blocks for compilation."
+}
+
+set software tbb
+set path /opt/scc/tbb
+setenv TBBROOT $path
+
+prepend-path LIBRARY_PATH /opt/scc/tbb/lib
+prepend-path DYLD_LIBRARY_PATH /opt/scc/tbb/lib
+prepend-path LD_LIBRARY_PATH /opt/scc/tbb/lib
+prepend-path LD_RUN_PATH /opt/scc/tbb/lib
+prepend-path -d " " LDFLAGS -L/opt/scc/tbb/lib
+prepend-path CPATH /opt/scc/tbb/include
