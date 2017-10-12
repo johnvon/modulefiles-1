@@ -10,4 +10,5 @@ prepend-path	 LD_LIBRARY_PATH /opt/ibm/lib
 prepend-path	 LD_RUN_PATH /opt/ibm/xlC/13.1.5/lib
 prepend-path	 LD_RUN_PATH /opt/ibm/lib
 prepend-path	 -d " " LDFLAGS -L/opt/ibm/xlC/13.1.5/lib
+prepend-path	 -d " " LDFLAGS -L/opt/ibm/lib
 prepend-path	 MANPATH /opt/ibm/xlC/13.1.5/man
