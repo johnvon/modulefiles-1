@@ -3,7 +3,7 @@
 set base /opt/scc/cmake
 set software cmake
 set version 3.9.1
-set path $base/$software/$version
+set path $base
 
 proc ModulesHelp { } {
   global version
