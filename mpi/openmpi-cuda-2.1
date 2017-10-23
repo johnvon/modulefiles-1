@@ -16,3 +16,10 @@ setenv	 		MPI_LIB		/opt/scc/openmpi/2.1.1/lib
 setenv			MPI_COMPILER	mpicc
 setenv			MPI_SUFFIX	_openmpi
 setenv	 		MPI_HOME	/opt/scc/openmpi/2.1.1
+
+prepend-path	 LIBRARY_PATH /opt/scc/openmpi/2.1.1/lib
+prepend-path	 DYLD_LIBRARY_PATH /opt/scc/openmpi/2.1.1/lib
+prepend-path	 LD_LIBRARY_PATH /opt/scc/openmpi/2.1.1/lib
+prepend-path	 LD_RUN_PATH /opt/scc/openmpi/2.1.1/lib
+prepend-path	 -d   LDFLAGS -L/opt/scc/openmpi/2.1.1/lib
+prepend-path	 CPATH /opt/scc/openmpi/2.1.1/include
