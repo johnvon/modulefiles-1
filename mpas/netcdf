@@ -10,3 +10,4 @@ prepend-path	 LD_LIBRARY_PATH /opt/scc/mpas/netcdf/4.1.3/lib
 prepend-path	 LD_RUN_PATH /opt/scc/mpas/netcdf/4.1.3/lib
 prepend-path	 -d " " LDFLAGS -L/opt/scc/mpas/netcdf/4.1.3/lib
 prepend-path	 CPATH /opt/scc/mpas/netcdf/4.1.3/include
+setenv NETCDF_PATH /opt/scc/mpas/netcdf/4.1.3
