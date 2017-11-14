@@ -1,0 +1,12 @@
+#%Module 1.0
+
+
+prepend-path 		PATH 		/opt/scc/mpas/pio/1.7.1/bin
+prepend-path 		LD_LIBRARY_PATH /opt/scc/mpas/pio/1.7.1/lib
+prepend-path LD_RUN_PATH /opt/scc/mpas/pio/1.7.1/lib
+prepend-path	 LIBRARY_PATH /opt/scc/mpas/pio/1.7.1/lib
+prepend-path	 DYLD_LIBRARY_PATH /opt/scc/mpas/pio/1.7.1/lib
+prepend-path	 LD_LIBRARY_PATH /opt/scc/mpas/pio/1.7.1/lib
+prepend-path	 LD_RUN_PATH /opt/scc/mpas/pio/1.7.1/lib
+prepend-path	 -d " " LDFLAGS -L/opt/scc/mpas/pio/1.7.1/lib
+prepend-path	 CPATH /opt/scc/mpas/pio/1.7.1/include
